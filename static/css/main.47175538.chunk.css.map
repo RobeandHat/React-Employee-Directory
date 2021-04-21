@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/searchStyle.css","webpack://src/components/containerStyle.css"],"names":[],"mappings":"AAAA,cACE,eACF,CCFA,WACE,UACF","file":"main.47175538.chunk.css","sourcesContent":[".form-control {\r\n  margin-top: 10px;\r\n}\r\n",".container {\r\n  padding: 5%;\r\n}\r\n"]}
