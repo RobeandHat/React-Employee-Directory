@@ -1,6 +1,7 @@
 import React from "react";
+import "./searchStyle.css";
 
-function SearchForm(props) {
+function EmployeeSearch(props) {
   return (
     <form className="search">
       <div className="form-group">
@@ -18,4 +19,4 @@ function SearchForm(props) {
   );
 }
 
-export default SearchForm;
+export default EmployeeSearch;
