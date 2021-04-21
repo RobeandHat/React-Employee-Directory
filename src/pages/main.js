@@ -3,6 +3,7 @@ import API from "../utils/API";
 import EmployeeList from "../components/EmployeeList";
 import EmployeeSearch from "../components/EmployeeSearch";
 import Container from "../components/Container";
+import Jumbotron from "../components/Jumbotron";
 
 class Main extends Component {
   state = {
@@ -35,6 +36,7 @@ class Main extends Component {
     return (
       <>
         <Container>
+          <Jumbotron />
           <EmployeeSearch
             style={{ margin: 10 }}
             input={this.state.input}
